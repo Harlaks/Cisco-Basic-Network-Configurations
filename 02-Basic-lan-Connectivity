@@ -1,0 +1,43 @@
+# Basic LAN Connectivity
+## Objective
+To establish communication between two PCs connected in the same Local Area Network (LAN) using a switch.
+
+## Description
+This lab demonstrates basic LAN setup in Cisco Packet Tracer. Two PCs are connected through a switch and assigned IP addresses in the same network. Connectivity is verified using the `ping` command.
+
+## Devices Used
+- 2 PCs
+- 1 Switch
+- Copper straight-through cables
+
+## Concepts Covered
+- Basic LAN setup
+- IP addressing
+- Same network communication
+- End-to-end connectivity testing
+
+## IP Addressing
+| Device | Interface | IP Address | Subnet Mask |
+|--------|-----------|------------|-------------|
+| PC1    | NIC       | 192.168.1.10 | 255.255.255.0 |
+| PC2    | NIC       | 192.168.1.20 | 255.255.255.0 |
+
+## Steps Performed
+1. Added two PCs and one switch in Packet Tracer.
+2. Connected both PCs to the switch using copper straight-through cables.
+3. Assigned IP addresses to both PCs.
+4. Verified connectivity using the `ping` command.
+
+## Verification
+- Successful ping from PC1 to PC2
+- Successful ping from PC2 to PC1
+
+## Files Included
+- `connect-2-pcs.pkt` → Packet Tracer simulation file
+- `screenshots/` → topology and ping verification images
+
+## Result
+Both PCs were able to communicate successfully within the same LAN.
+
+## Conclusion
+This lab helps in understanding the basic working of a LAN, IP addressing, and connectivity verification between devices in the same network.
